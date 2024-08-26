@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+
+/* body {
+    background-color: var(--body-bg);
+} */
+
+.page {
+    background: #ffffff;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+}
+
+.bb {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* Top Section */
+.top-content {
+    padding-bottom: 15px;
+}
+
+
+.top-left p {
+    margin: 0;
+}
+
+
+/* User Store Section */
+.store-user {
+    padding-bottom: 25px;
+}
+
+.store-user p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.store-user .address {
+    font-weight: 400;
+}
+
+.store-user h2 {
+    color:  #22b8d1;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+
+tr th:first-child,
+tr td:first-child {
+    text-align: left;
+}
+
+
+
+
+/*@media print {*/
+/*  footer { */
+/*    text-align: center;*/
+/*    position: relative;*/
+/*    bottom: 0;*/
+/*    left: 75px;*/
+    
+/*  }*/
+/*}*/
+
+
+@page {
+  size: A4;
+  margin: 0;
+  
+}
+
+@media print {
+    
+  html, body {
+    width: 21cm;
+    height: 29.7cm;
+  }
+  
+}
+
